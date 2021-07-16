@@ -1,0 +1,29 @@
+.sidebar-container{
+    min-height:100vh;
+    background:#080808;
+}
+.grey-main-btn{
+    background:rgb(39, 39, 39);
+    padding:3% 10%;
+    color:white;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    margin-top:10%;
+    font-size:1.2rem;
+    border-radius: 10px;
+}
+.sidebar-container div{
+    margin:7vh 0%;
+}
+.sidebar-container div:last-child{
+    padding-bottom: 10vh;
+}
+.sidebar-container div img{
+    height:2.5rem;
+}
+.sidebar-container div h3{
+    color:white;
+    font-weight: 400;
+    margin-top:0;
+}

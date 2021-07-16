@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+.wrapper{
+  display:flex;
+  background:black;
+}
+.sidebar-wrapper{
+  width:25%
+}
+.content-wrapper{
+  width:75%;
+  color:white;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+

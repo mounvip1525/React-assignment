@@ -1,0 +1,10 @@
+.wrapper{
+    display:flex;
+    background:black;
+}
+.wrapper:first-child{
+    width:20%
+}
+.wrapper:last-child{
+    width:80%
+}
