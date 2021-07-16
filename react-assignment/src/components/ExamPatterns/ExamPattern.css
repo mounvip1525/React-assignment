@@ -1,0 +1,75 @@
+.btn-container{
+    display:flex;
+    width:100%;
+    justify-content: center;
+}
+.btn-container button{
+    border:1px solid white;
+    border-radius:5px;
+    padding:0.75rem 3rem;
+    background:transparent;
+    color:white;
+    margin:2%;
+}
+.btn-active{
+    background:rgb(39, 39, 39) !important;
+    border:none !important;
+}
+.exam-header{
+    background:rgb(39, 39, 39);
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+    width:80%;
+    padding:0 2%;
+    box-sizing: border-box;
+    align-items: center;
+    margin:5% 0;
+}
+.input-box{
+    display:flex;
+    align-items: center;
+}
+.input-box input{
+    background:black;
+    margin-right:15px;
+    border:none;
+    outline:none;
+    height:2rem;
+    padding:0 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color:white;
+}
+.input-box input::placeholder{
+    color:white;
+}
+.input-box button{
+    background:black;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    color:white;
+    height:2rem;
+    padding:0 20px;
+}
+table{
+    margin: 0 auto;
+}
+td div{
+    display:flex;
+    align-items: center;
+}
+td div svg{
+    margin-right:5px;
+    color:red;
+}
+th,td{
+    min-width:10vw;
+    width:auto;
+    align-items: left;
+    text-align: left;
+}
+td div p{
+    text-decoration:underline;
+}

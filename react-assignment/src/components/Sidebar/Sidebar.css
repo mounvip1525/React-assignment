@@ -22,8 +22,9 @@
 .sidebar-container div img{
     height:2.5rem;
 }
-.sidebar-container div h3{
+.sidebar-container div a{
     color:white;
+    text-decoration: none;
     font-weight: 400;
     margin-top:0;
 }

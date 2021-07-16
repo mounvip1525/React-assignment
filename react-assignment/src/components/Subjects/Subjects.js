@@ -9,7 +9,7 @@ export default function Subjects() {
                 <Sidebar />
             </div>
             <div className="content-wrapper">
-                
+                <h1>SUBJECTS</h1>
             </div>
         </div>
     )

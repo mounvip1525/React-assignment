@@ -1,0 +1,40 @@
+.ranks-box{
+    width:85%;
+    justify-content: center;
+}
+.rank-main-header{
+    width:80%;
+    background:transparent !important;
+}
+.rank-main-header button{
+    background:black;
+    border:1px solid white;
+    outline:none;
+    border-radius: 5px;
+    color:white;
+    height:2rem;
+    padding:0 20px;
+}
+.ranks-box{
+    width:80%;
+    background:#1d1d1d;
+    border-radius: 10px;
+    margin-bottom:5%
+}
+.rank-header{
+    background:rgb(39, 39, 39);
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+    padding:0 2%;
+    box-sizing: border-box;
+    align-items: center;
+    margin-bottom:5%;
+}
+.ranks-box .rank-header h3{
+    border:1px solid white;
+    padding:1%;
+}
+.rank-input input{
+    padding:0 55px;
+}

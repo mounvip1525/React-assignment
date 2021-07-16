@@ -9,7 +9,7 @@ export default function Institutions() {
                 <Sidebar />
             </div>
             <div className="content-wrapper">
-                
+                <h1>INSTITUTIONS</h1>
             </div>
         </div>
     )

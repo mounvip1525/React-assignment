@@ -9,7 +9,7 @@ export default function QuestionPapers() {
                 <Sidebar />
             </div>
             <div className="content-wrapper">
-                
+                <h1>QUESTION PAPERS</h1>
             </div>
         </div>
     )

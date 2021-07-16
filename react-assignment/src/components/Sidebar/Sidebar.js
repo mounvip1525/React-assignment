@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import v1 from '../../Assets/institutions.png'
 import v2 from '../../Assets/subject.png'
 import v3 from '../../Assets/question.png'
@@ -14,31 +15,31 @@ export default function Sidebar() {
             <button className='grey-main-btn'>DASHBOARD</button>
             <div>
                 <img src={v1} />
-                <h3>INSTITUTIONS</h3>
+                <h3><Link to='/institutions'>INSTITUTIONS</Link></h3>
             </div>
             <div>
                 <img src={v2} />
-                <h3>SUBJECT (S)</h3>
+                <h3><Link to='/subjects'>SUBJECT (S)</Link></h3>
             </div>
             <div>
                 <img src={v3} />
-                <h3>QUESTION PAPERS</h3>
+                <h3><Link to="/questionpapers">QUESTION PAPERS</Link></h3>
             </div>
             <div>
                 <img src={v4} />
-                <h3>RANKS</h3>
+                <h3><Link to="/ranks">RANKS</Link></h3>
             </div>
             <div>
                 <img src={v7} />
-                <h3>DEGREE (C)</h3>
+                <h3><Link to="/degree">DEGREE (C)</Link></h3>
             </div>
             <div>
                 <img src={v5} />
-                <h3>USERS</h3>
+                <h3><Link to="/users">USERS</Link></h3>
             </div>
             <div>
                 <img src={v6} />
-                <h3>EXAM PATTERNS</h3>
+                <h3><Link to="/exampatterns">EXAM PATTERNS</Link></h3>
             </div>
         </div>
     )

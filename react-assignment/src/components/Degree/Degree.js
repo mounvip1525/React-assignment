@@ -9,7 +9,7 @@ export default function Degree() {
                 <Sidebar />
             </div>
             <div className="content-wrapper">
-                
+                <h1>DEGREE</h1>
             </div>
         </div>
     )
