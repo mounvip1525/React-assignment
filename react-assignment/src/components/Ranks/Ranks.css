@@ -38,3 +38,6 @@
 .rank-input input{
     padding:0 55px;
 }
+.ranks-box table tbody tr div p{
+    margin-right:20px;
+}

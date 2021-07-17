@@ -1,0 +1,19 @@
+.institutions-box{
+    width: -webkit-fill-available;
+    text-align: left;
+}
+.institutions-box select{
+    margin-right:2%;
+}
+.institutions-box input{
+    margin-right:2% !important;
+}
+.users-header button{
+    background:#212121;
+    color:white;
+    height:2.5rem;
+    border-radius: 5px;
+    cursor:pointer;
+    border:none;
+    padding:0% 3%;
+}

@@ -1,0 +1,63 @@
+.qp-selects{
+    width:90%;
+    display:flex;
+    justify-content: space-between;
+}
+.qp-selects select,.qp-selects button{
+    background:#212121;
+    border:none;
+    color:white;
+    padding:1% 2%;
+    text-align: left;
+    outline:none;
+    border-radius:5px;
+    font-size:large;
+    text-align: left;
+    height:2.5rem;
+    margin:5% 0;
+    flex:1;
+    margin-right:3%;
+}
+.qp-selects button{
+    text-align: center;
+}
+.qp-flex{
+    display:flex;
+    flex-wrap: wrap;
+    width:90%;
+    margin:5% auto;
+}
+.qp-flex div{
+    width:15%;
+    margin:1%;
+    height:30vh;
+    text-align: center;
+    margin:auto;
+}
+.qp-flex div div{
+    background:#212121;
+    display:flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    border:none;
+    outline:none;
+    padding:0 10px;
+    color:white;
+    border-radius:5px;
+    box-sizing: border-box;
+    width:100%;
+    height:max-content
+}
+.qp-flex div div p{
+    font-size:0.85vw;
+}
+.qp-flex div div img{
+    margin-left:10px;
+    height:fit-content;
+}
+.qp-flex div h4{
+    margin-top:5%;
+    text-align: center;
+
+}

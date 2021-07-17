@@ -1,0 +1,75 @@
+.degree-btns{
+    width:100%;
+}
+.degree-btns button{
+    background:transparent;
+    color:white;
+    height:2.5rem;
+    border-radius: 5px;
+    cursor:pointer;
+    border:1px solid white;
+    padding:0% 3%;
+    margin:1%;
+    min-width:10vw;
+}
+.degree-wrapper select{
+    background:#212121;
+    border:none;
+    color:white;
+    padding:1% 2%;
+    text-align: left;
+    outline:none;
+    border-radius:10px;
+    font-size:large;
+    text-align: left;
+    height:2.5rem;
+    margin:5% 0;
+}
+.degree-box{
+    background:#212121;
+    width:95%;
+    display:flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding:0 3%;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.degree-box div{
+    width: -webkit-fill-available;
+    text-align: right;
+}
+.degree-box div input{
+    background:black;
+    margin-right:15px;
+    border:none;
+    outline:none;
+    height:2.5rem;
+    padding:0 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color:white;
+}
+.degree-box div input::placeholder{
+    color:white;
+    text-align: center;
+}
+.degree-box div select{
+    background: black;
+    margin-right:2%;
+    font-size: small;
+}
+.degree-box div button{
+    background:black;
+    border:none;
+    outline:none;
+    border-radius: 10px;
+    padding:0 3%;
+    color:white;
+    height:2.5rem;
+}
+.degree-wrapper table tbody tr td div p{
+    margin-right:10px;
+}

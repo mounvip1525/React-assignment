@@ -15,4 +15,7 @@
   align-items: center;
   flex-direction: column;
 }
+select,button{
+  cursor:pointer;
+}
 

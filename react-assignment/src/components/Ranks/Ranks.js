@@ -16,118 +16,100 @@ export default function Ranks() {
           <button>ADD</button>
         </div>
         <div className="ranks-box">
-        <div className="rank-header">
-          <h3>RAMAIAH UNIVERSITY</h3>
-          <div className="input-box rank-input">
-            <input placeholder="ENTER UNIQUE ID OF CLASS" name="exam-type" />
-            <button>ADD</button>
+          <div className="rank-header">
+            <h3>RAMAIAH UNIVERSITY</h3>
+            <div className="input-box rank-input">
+              <input placeholder="ENTER UNIQUE ID OF CLASS" name="exam-type" />
+              <button>ADD</button>
+            </div>
           </div>
-        </div>
-        <table>
-          <tr>
-            <th>#</th>
-            <th>EXAM NAME</th>
-          </tr>
-          <tbody>
+          <table>
             <tr>
-              <td>1</td>
-              <td>TEST 1</td>
-              <td>
-                <div>
-                  <ClearIcon />
-                  <p>EDIT</p>
-                </div>
-              </td>
+              <th>#</th>
+              <th>UNIQUE ID</th>
+              <th>CLASS</th>
             </tr>
-            <tr>
-              <td>1</td>
-              <td>TEST 1</td>
-              <td>
-                <div>
-                  <ClearIcon />
-                  <p>EDIT</p>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>ASSIGNMENT 1</td>
-              <td>
-                <div>
-                  <ClearIcon />
-                  <p>EDIT</p>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>TEST 1</td>
-              <td>
-                <div>
-                  <ClearIcon />
-                  <p>EDIT</p>
-                </div>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>BB123</td>
+                <td>
+                  <div>
+                    <p>NEET</p>
+                    <ClearIcon />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>BB123</td>
+                <td>
+                  <div>
+                    <p>NEET</p>
+                    <ClearIcon />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>BB123</td>
+                <td>
+                  <div>
+                    <p>NEET</p>
+                    <ClearIcon />
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         <div className="ranks-box">
-        <div className="rank-header">
-          <h3>RAMAIAH UNIVERSITY</h3>
-          <div className="input-box rank-input">
-            <input placeholder="ENTER UNIQUE ID OF CLASS" name="exam-type" />
-            <button>ADD</button>
+          <div className="rank-header">
+            <h3>RAMAIAH UNIVERSITY</h3>
+            <div className="input-box rank-input">
+              <input placeholder="ENTER UNIQUE ID OF CLASS" name="exam-type" />
+              <button>ADD</button>
+            </div>
           </div>
-        </div>
-        <table>
-          <tr>
-            <th>#</th>
-            <th>EXAM NAME</th>
-          </tr>
-          <tbody>
+          <table>
             <tr>
-              <td>1</td>
-              <td>TEST 1</td>
-              <td>
-                <div>
-                  <ClearIcon />
-                  <p>EDIT</p>
-                </div>
-              </td>
+              <th>#</th>
+              <th>UNIQUE ID</th>
+              <th>CLASS</th>
             </tr>
-            <tr>
-              <td>1</td>
-              <td>TEST 1</td>
-              <td>
-                <div>
-                  <ClearIcon />
-                  <p>EDIT</p>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>ASSIGNMENT 1</td>
-              <td>
-                <div>
-                  <ClearIcon />
-                  <p>EDIT</p>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>TEST 1</td>
-              <td>
-                <div>
-                  <ClearIcon />
-                  <p>EDIT</p>
-                </div>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>BB123</td>
+                <td>
+                  <div>
+                    <p>NEET</p>
+                    <ClearIcon />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>BB123</td>
+                <td>
+                  <div>
+                    <p>NEET</p>
+                    <ClearIcon />
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>BB123</td>
+                <td>
+                  <div>
+                    <p>NEET</p>
+                    <ClearIcon />
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
