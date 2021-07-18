@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import Sidebar from "../Sidebar/Sidebar";
 import "./Institutions.css";
 
@@ -24,7 +25,7 @@ export default function Institutions() {
             />
             <button>SEARCH</button>
           </div>
-            <button>CREATE</button>
+            <button><Link to="/create">CREATE</Link></button>
         </div>
         <div className="users-table">
           <table>

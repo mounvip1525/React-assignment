@@ -1,0 +1,110 @@
+.create-wrapper{
+    width:70%;
+    /* justify-content: center; */
+    margin-top:-10%;
+}
+.create-wrapper select{
+    background:#212121;
+    border:none;
+    color:white;
+    padding:1% 2%;
+    text-align: left;
+    outline:none;
+    border-radius:5px;
+    font-size:large;
+    text-align: left;
+    height:2.5rem;
+    margin-top:25%;
+    width:25vw;
+}
+.create-wrapper h2{
+    margin:10% 0;
+}
+.create-box{
+    background:#212121;
+    padding:1% 5%;
+    border-radius: 10px;
+    width:80%;
+    margin:0 auto
+}
+.create-box div{
+    display:flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* flex-direction: column; */
+}
+.create-box div h4{
+    width:30%;
+    text-align: right;
+}
+.create-box div div,.create-box div input,.create-box div textarea,.create-box div p{
+    width:70%;
+    text-align: left;   
+}
+.create-box div input,.create-box div textarea{
+    background: grey;
+    height:2rem;
+    outline:none;
+    border:none;
+    border-radius:5px;
+}
+.create-left{
+    margin-left:3%;
+}
+.attendance-box{
+    width:2vw !important;
+    margin-left:3%;
+}
+::placeholder{
+    color:white;
+}
+.create-box button{
+    background:black;
+    color:white;
+    padding:2% 10%;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    margin-bottom:10%;
+}
+.create-box div select{
+    height:100%;
+    margin-top:0;
+    width:auto;
+    background: grey;
+    margin-left:2%;
+}
+.c-wrapper{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start !important;
+}
+.create-sidebar-main{
+    width:25%;
+    background: black;
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+.create-sidebar-main a {
+    margin:0.5%;
+    height:3.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background:grey;
+    align-items: center;
+    display:flex;
+    text-decoration: none;
+    color:white;
+    text-align: left;
+    padding-left:2%;
+}
+.c-content{
+    width:75%;
+}
+.selected-nav{
+    background:black !important;
+    font-size:3rem;
+    transition:all 0.5s ease;
+}

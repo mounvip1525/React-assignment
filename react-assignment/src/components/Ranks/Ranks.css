@@ -36,7 +36,10 @@
     padding:1%;
 }
 .rank-input input{
-    padding:0 55px;
+    /* padding:0 55px; */
+}
+.rank-input input::placeholder{
+    text-align: left;
 }
 .ranks-box table tbody tr div p{
     margin-right:20px;

@@ -1,12 +1,9 @@
 .users-wrapper{
-    /* background:red; */
-    /* box-sizing: border-box; */
     color:white;
     width:75%;
     display:flex;
     flex-direction: column;
     padding:2%;
-    /* justify-content: center; */
     align-items: center;
 }
 .users-header{
@@ -27,6 +24,9 @@
     text-align: left;
     height:2.5rem;
 }
+.users-header div{
+    display:flex;
+}
 .users-header div input{
     background:transparent;
     color:white;
@@ -34,8 +34,9 @@
     outline:none;
     border-radius:5px;
     height:2.5rem;
-    padding:0 35px;
+    padding:0 30px;
     margin-right:5px;
+    width:20vw
 }
 .users-header div input::placeholder{
     color:white;

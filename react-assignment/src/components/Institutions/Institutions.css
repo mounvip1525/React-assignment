@@ -8,6 +8,10 @@
 .institutions-box input{
     margin-right:2% !important;
 }
+.users-header button a{
+    text-decoration: none;
+    color:white;
+}
 .users-header button{
     background:#212121;
     color:white;

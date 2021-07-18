@@ -1,0 +1,100 @@
+.subjects-wrapper{
+    display:flex;
+    width:100%;
+}
+.subjects-sidebar{
+    display:flex;
+    flex-direction: column;
+    width:20%;
+    border:1px solid white;
+    margin:2% 3%;
+    /* padding:0 1% 1%; */
+    box-sizing: border-box;
+    border-radius:5px;
+}
+.subjects-sidebar button{
+    background:black;
+    border:1px solid white;
+    outline:none;
+    border-radius: 5px;
+    color:white;
+    height:2rem;
+    /* padding:15px 5px; */
+    margin:4% 10%;
+}
+.subjects-content{
+    width:80%;
+}
+.subject-table tr th,.subject-table tbody tr td{
+    font-size: smaller;
+}
+.subjects-btns{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    margin-top:2%;
+}
+.subjects-box{
+    align-items: center;
+    width:110%;
+}
+.subjects-box h3{
+    font-size:1vw;
+}
+.subjects-box svg{
+    vertical-align: middle;
+}
+.subjects-table-wrapper{
+    padding:3%;
+    margin:3%;
+}
+.subject-table tbody tr td div p{
+    margin-right:15px;
+}
+.subject-active{
+    background:grey !important;
+    border:none !important
+}
+.subjects-sidebar h3{
+    margin-top:0;
+    background:grey;
+    padding:4%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.subjects-btns div{
+    width:max-content;
+    display:inline-flex;
+    align-items: center;
+}
+.subjects-btns div button, .subjects-btns button{
+    background:black;
+    border:1px solid white;
+    outline:none;
+    border-radius: 5px;
+    color:white;
+    height:2.5rem;
+    padding:0 20px;
+    margin-right:2%;
+}
+.subjects-btns div select{
+    background:grey;
+    border:none;
+    color:white;
+    padding:1% 2%;
+    text-align: left;
+    outline:none;
+    border-radius:5px;
+    font-size:large;
+    text-align: left;
+    height:2.5rem;
+    margin:5% 0;
+    flex:1;
+    margin-right:2%;
+}
+.last-btn{
+    margin-bottom:5vh !important;
+}
+.subjects-btns{
+    align-items: center;
+}
