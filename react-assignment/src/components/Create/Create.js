@@ -1,4 +1,5 @@
 import React , {useState} from "react";
+import { Link } from "react-router-dom";
 import Sidebar from "../Sidebar/Sidebar";
 import "./Create.css";
 
@@ -72,7 +73,7 @@ export default function Create() {
                 placeholder="2"
                />
             </div>
-            <button>CREATE</button>
+            <Link to="/classes"><button>CREATE</button></Link>
           </div>
         </div>
       </div>

@@ -21,3 +21,11 @@
     border:none;
     padding:0% 3%;
 }
+@media screen and (max-width:800px){
+    .users-wrapper{
+        width:1500vw !important;
+    }
+    .users-header{
+        width:500vw;
+    }
+}
