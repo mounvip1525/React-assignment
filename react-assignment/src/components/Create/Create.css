@@ -108,3 +108,97 @@
     font-size:3rem;
     transition:all 0.5s ease;
 }
+.justifyBtns{
+    display:flex;
+    justify-content: space-between;
+    padding:0 5%;
+    align-items: center;
+}
+.flex{
+    display:flex;
+}
+.classes-box{
+    /* width:110%; */
+    padding:0 5%;
+    margin-left:10%;
+    /* justify-content: space-between; */
+}
+.classes-box select{
+    font-size:1vw !important;
+    background:black;
+}
+.classes-box button{
+    background: black;
+    color:white;
+    border-radius: 5px;
+    border:none;
+    outline:none;
+    height:2.5rem;
+    padding:2% 5%;
+    margin-left:2%;
+}
+.select{
+    text-align: left;
+    margin-left:10%;
+}
+.sports-content{
+    padding:5%;
+}
+.sports-content .degree-box{
+    width:100%;
+    margin-right:10% !important;
+}
+.media-selects{
+    text-align: left;
+    margin-left:5%;
+}
+.media-selects select{
+    margin-right:2%;
+}
+.media-box{
+    margin:5%;
+}
+.library-table{
+    width:100%;
+    margin:5%;
+}
+.flex-end{
+    width:100%;
+    text-align: end;
+}
+.flex-end button{
+    margin-right:auto !important;
+}
+.justifyContent{
+    justify-content: space-between;
+    width:65vw;
+    margin-bottom:5vh;
+}
+.justifyContent div{
+    width:50vw;
+}
+.justifyContent div input{
+    background: transparent;
+    color:white;
+    height:2rem;
+    border:1px solid white;
+    outline:none;
+    border-radius: 5px;
+    margin-right:2%;
+}
+.justifyContent div button{
+    background: transparent;
+    color:white;
+    height:2rem;
+    border:1px solid white;
+    outline:none;
+    border-radius: 5px;
+}
+.justifyContent button{
+ color:white;
+ border-radius: 5px;
+ padding:0 2%;
+}
+.form-table{
+    padding:5%;
+}
